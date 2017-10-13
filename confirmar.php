@@ -13,7 +13,7 @@ if(!isset($_SESSION['contador'])){$_SESSION['contador']=0;}
 						<section class="cont2">
 		<section class="tbcontenido2">
 
-<form action="login2.php" method="POST">
+<form action="login.php" method="POST">
 	
 	
 <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  >
