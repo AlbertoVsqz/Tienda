@@ -5,8 +5,7 @@
 if(!isset($_SESSION['contador'])){$_SESSION['contador']=0;}
 
 	$contador = 0;
-	echo $_POST['usuario'];
-	echo $_POST['contrasena'];
+	
 
 	$peticion = "SELECT * FROM tienda_cliente WHERE usuario = '".$_POST['usuario']."' AND contrasena ='".$_POST['contrasena']."'";
 	$resultado = mysqli_query($conexion, $peticion) or die (mysqli_error($conexion));
